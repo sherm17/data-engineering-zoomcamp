@@ -1,0 +1,280 @@
+[2024-03-15T02:33:08.959+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-15T02:33:08.959+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-15T02:33:08.960+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-03-15T02:33:08.960+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-15T02:33:08.963+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-03-15T02:33:09.060+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/green_taxi_dag.py     38  0.03s             0           0
+================================================================================
+[2024-03-15T02:33:39.316+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  1.13s           2024-03-15T02:33:10
+================================================================================
+[2024-03-15T02:34:09.723+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.32s           2024-03-15T02:33:40
+================================================================================
+[2024-03-15T02:34:40.190+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.26s           2024-03-15T02:34:11
+================================================================================
+[2024-03-15T02:35:10.574+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.26s           2024-03-15T02:34:41
+================================================================================
+[2024-03-15T02:35:41.090+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.31s           2024-03-15T02:35:11
+================================================================================
+[2024-03-15T02:36:11.505+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.28s           2024-03-15T02:35:42
+================================================================================
+[2024-03-15T02:36:41.961+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.30s           2024-03-15T02:36:12
+================================================================================
+[2024-03-15T02:37:12.335+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.27s           2024-03-15T02:36:43
+================================================================================
+[2024-03-15T02:37:17.544+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-15T02:48:33.595+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-15T02:48:33.599+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-15T02:48:33.600+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-03-15T02:48:33.600+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-15T02:48:33.610+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-03-15T02:48:33.676+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/green_taxi_dag.py     38  0.02s             0           0
+================================================================================
+[2024-03-15T02:48:51.891+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-15T02:49:37.716+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-15T02:49:37.716+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-15T02:49:37.717+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-03-15T02:49:37.717+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-15T02:49:37.722+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-03-15T02:49:37.787+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/green_taxi_dag.py     38  0.02s             0           0
+================================================================================
+[2024-03-15T02:50:08.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.45s           2024-03-15T02:49:38
+================================================================================
+[2024-03-15T02:50:38.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.35s           2024-03-15T02:50:08
+================================================================================
+[2024-03-15T02:50:39.666+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/green_taxi_dag.py exited with return code 1.
+[2024-03-15T02:50:47.824+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-15T02:54:09.746+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-15T02:54:09.747+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-15T02:54:09.747+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-03-15T02:54:09.747+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-15T02:54:09.752+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-03-15T02:54:09.827+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/green_taxi_dag.py     38  0.03s             0           0
+================================================================================
+[2024-03-15T02:54:40.077+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.51s           2024-03-15T02:54:10
+================================================================================
+[2024-03-15T02:55:08.120+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-15T02:56:44.755+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-15T02:56:44.755+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-15T02:56:44.756+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-03-15T02:56:44.756+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-15T02:56:44.759+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-03-15T02:56:44.841+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/green_taxi_dag.py     38  0.04s             0           0
+================================================================================
+[2024-03-15T02:57:15.067+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.48s           2024-03-15T02:56:45
+================================================================================
+[2024-03-15T02:57:45.165+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.32s           2024-03-15T02:57:15
+================================================================================
+[2024-03-15T02:58:15.455+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.30s           2024-03-15T02:57:46
+================================================================================
+[2024-03-15T02:58:46.040+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.27s           2024-03-15T02:58:17
+================================================================================
+[2024-03-15T02:59:16.533+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.33s           2024-03-15T02:58:47
+================================================================================
+[2024-03-15T02:59:46.916+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.25s           2024-03-15T02:59:17
+================================================================================
+[2024-03-15T03:00:17.344+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.31s           2024-03-15T02:59:48
+================================================================================
+[2024-03-15T03:00:47.859+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.26s           2024-03-15T03:00:18
+================================================================================
+[2024-03-15T03:01:18.162+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.29s           2024-03-15T03:00:49
+================================================================================
+[2024-03-15T03:01:44.982+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-15T03:01:44.997+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-03-15T03:01:48.743+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.32s           2024-03-15T03:01:19
+================================================================================
+[2024-03-15T03:02:19.343+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.31s           2024-03-15T03:01:50
+================================================================================
+[2024-03-15T03:02:49.950+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.33s           2024-03-15T03:02:20
+================================================================================
+[2024-03-15T03:03:20.526+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.31s           2024-03-15T03:02:51
+================================================================================
+[2024-03-15T03:03:51.108+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.34s           2024-03-15T03:03:22
+================================================================================
+[2024-03-15T03:04:21.118+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/green_taxi_dag.py                           1           0  0.45s           2024-03-15T03:03:52
+================================================================================

@@ -1,0 +1,1 @@
+create database green_taxi_db;

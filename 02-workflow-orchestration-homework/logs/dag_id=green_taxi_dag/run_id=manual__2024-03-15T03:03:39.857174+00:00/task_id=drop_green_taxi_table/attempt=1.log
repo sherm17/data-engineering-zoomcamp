@@ -1,0 +1,22 @@
+[2024-03-15T03:03:48.083+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: green_taxi_dag.drop_green_taxi_table manual__2024-03-15T03:03:39.857174+00:00 [queued]>
+[2024-03-15T03:03:48.086+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: green_taxi_dag.drop_green_taxi_table manual__2024-03-15T03:03:39.857174+00:00 [queued]>
+[2024-03-15T03:03:48.086+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-15T03:03:48.091+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): drop_green_taxi_table> on 2024-03-15 03:03:39.857174+00:00
+[2024-03-15T03:03:48.093+0000] {standard_task_runner.py:60} INFO - Started process 178 to run task
+[2024-03-15T03:03:48.095+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_dag', 'drop_green_taxi_table', 'manual__2024-03-15T03:03:39.857174+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_dag.py', '--cfg-path', '/tmp/tmpgpj7fv4a']
+[2024-03-15T03:03:48.096+0000] {standard_task_runner.py:88} INFO - Job 9: Subtask drop_green_taxi_table
+[2024-03-15T03:03:48.118+0000] {task_command.py:423} INFO - Running <TaskInstance: green_taxi_dag.drop_green_taxi_table manual__2024-03-15T03:03:39.857174+00:00 [running]> on host 13878a75a306
+[2024-03-15T03:03:48.148+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='green_taxi_dag' AIRFLOW_CTX_TASK_ID='drop_green_taxi_table' AIRFLOW_CTX_EXECUTION_DATE='2024-03-15T03:03:39.857174+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-15T03:03:39.857174+00:00'
+[2024-03-15T03:03:48.149+0000] {sql.py:276} INFO - Executing: DROP TABLE IF EXISTS public.green_taxi
+[2024-03-15T03:03:48.152+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-03-15T03:03:48.156+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-03-15T03:03:48.169+0000] {sql.py:457} INFO - Running statement: DROP TABLE IF EXISTS public.green_taxi, parameters: None
+[2024-03-15T03:03:48.171+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-03-15T03:03:48.175+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=green_taxi_dag, task_id=drop_green_taxi_table, execution_date=20240315T030339, start_date=20240315T030348, end_date=20240315T030348
+[2024-03-15T03:03:48.193+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-15T03:03:48.199+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-03-15T03:03:48.207+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
